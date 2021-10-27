@@ -1,0 +1,45 @@
+{
+  "name": "Items",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "itemCode": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "colorId": {
+      "type": [
+        "string"
+      ]
+    },
+    "size": {
+      "type": [
+        "string"
+      ]
+    },
+    "priceInput": {
+      "type": "string"
+    },
+    "priceOutput": {
+      "type": "string"
+    },
+    "Quanity": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

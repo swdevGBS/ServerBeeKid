@@ -1,0 +1,38 @@
+{
+  "name": "customers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "orders": {
+      "type":[
+        "object"
+      ]
+    },
+    "datetime": {
+      "type": "date"
+    },
+    "sumPrice": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

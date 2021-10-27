@@ -1,0 +1,1 @@
+yes | ./node_modules/.bin/lb-sdk server/server.js codegen/api/angular

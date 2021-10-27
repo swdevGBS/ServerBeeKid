@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MongoDB": {
+    "host": "cluster0.zhvvc.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://cluster0.zhvvc.mongodb.net/BeeKidsDataBase?retryWrites=true&w=majority",
+    "database": "BeeKids",
+    "password": "qbxv4wH6hSDLODup",
+    "name": "MongoDB",
+    "user": "khanhtong",
+    "connector": "mongodb"
+  }
+}
